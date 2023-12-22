@@ -32,7 +32,9 @@ namespace CapaPresentacion
                 {
                     MessageBox.Show("Usuario Incorrecto");
                     txtusuario.Clear();
+                    //Cambios de Prueba
                     txtcontrasenia.Clear();
+
                     txtusuario.Focus();
                     return; 
                 }
