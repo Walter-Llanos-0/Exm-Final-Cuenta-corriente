@@ -1,0 +1,12 @@
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\bin\Debug\Entidades.dll
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\bin\Debug\Entidades.pdb
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.dll
+C:\CICLO 3 - VISUALSTUDIO - SQL\VISUALSTUDIO\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.pdb
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\bin\Debug\Entidades.dll
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\bin\Debug\Entidades.pdb
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.dll
+C:\Users\WALTER\Desktop\EXAMEN FINAL - GRUPO 5\GRUPO5_EXAMEN_FINAL\Entidades\obj\Debug\Entidades.pdb
