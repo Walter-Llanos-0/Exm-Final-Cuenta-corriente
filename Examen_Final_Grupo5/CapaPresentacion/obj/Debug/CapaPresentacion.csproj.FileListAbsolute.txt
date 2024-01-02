@@ -66,3 +66,4 @@ C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMoviCliente.resources
