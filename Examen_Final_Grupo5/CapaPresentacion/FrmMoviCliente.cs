@@ -53,8 +53,8 @@ namespace CapaPresentacion
         {
 
             string men;
-            men = or_moviBL.agregarmovi(new MoviCliente(txtfecha.Text, txtconcepto.Text, txtnota.Text, cboTipomov.SelectedItem.ToString(),
-                cboTipomon.SelectedItem.ToString(), txtimporte.Text, txtidcliente.Text));
+            men = or_moviBL.agregarmovi(new MoviCliente(txtfecha.Text, txtconcepto.Text,  cboTipomov.SelectedItem.ToString(),
+                cboTipomon.SelectedItem.ToString(), Int32.Parse(txtimporte.Text), txtnota.Text, Int32.Parse(txtidcliente.Text)));
             MessageBox.Show(men);
             tabla.DataSource = or_moviBL.listarMovi();
             LimpiarMovi();
@@ -83,8 +83,8 @@ namespace CapaPresentacion
                 txtnota.Text = or_Movi.Nota;
                 cboTipomov.SelectedItem = or_Movi.Tipomovimiento;
                 cboTipomon.SelectedItem = or_Movi.Tipomoneda;
-                txtimporte.Text = or_Movi.Importe;
-                txtidcliente.Text = or_Movi.IdCliente;
+                txtimporte.Text = or_Movi.Importe.ToString(); ;
+                txtidcliente.Text = or_Movi.IdCliente.ToString(); ;
 
             }
         }
@@ -93,8 +93,8 @@ namespace CapaPresentacion
         {
 
             string men;
-            men = or_moviBL.actualizarmovi(new MoviCliente(Int32.Parse(txtidm.Text), txtfecha.Text, txtconcepto.Text, txtnota.Text,
-                cboTipomov.SelectedItem.ToString(), cboTipomon.SelectedItem.ToString(), txtimporte.Text, txtidcliente.Text));
+            men = or_moviBL.actualizarmovi(new MoviCliente(Int32.Parse(txtidm.Text), txtfecha.Text, txtconcepto.Text,
+                cboTipomov.SelectedItem.ToString(), cboTipomon.SelectedItem.ToString(), Int32.Parse(txtimporte.Text), txtnota.Text, Int32.Parse(txtidcliente.Text)));
             MessageBox.Show(men);
             tabla.DataSource = or_moviBL.listarMovi();
             LimpiarMovi();

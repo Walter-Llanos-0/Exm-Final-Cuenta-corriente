@@ -33,7 +33,7 @@ namespace CapaDatos
                         while (reader.Read())
                         {
                             lista.Add(new MoviCliente(int.Parse(reader[0].ToString()), reader[1].ToString(), reader[2].ToString(),
-                                reader[3].ToString(), reader[4].ToString(), reader[5].ToString(), reader[6].ToString(), reader[7].ToString()));
+                                reader[3].ToString(), reader[4].ToString(), int.Parse(reader[5].ToString()), reader[6].ToString(), int.Parse(reader[7].ToString())));
 
 
                         }
@@ -74,6 +74,7 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@p_tipomov", unminicli.Tipomovimiento);
                     cmd.Parameters.AddWithValue("@p_tipomon", unminicli.Tipomoneda);
                     cmd.Parameters.AddWithValue("@p_importe", unminicli.Importe);
+                    
                     cmd.Parameters.AddWithValue("@p_idCliente", unminicli.IdCliente);
 
                     cn.Open();
@@ -123,6 +124,7 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@p_tipomov", unminicli.Tipomovimiento);
                     cmd.Parameters.AddWithValue("@p_tipomon", unminicli.Tipomoneda);
                     cmd.Parameters.AddWithValue("@p_importe", unminicli.Importe);
+                    
                     cmd.Parameters.AddWithValue("@p_idCliente", unminicli.IdCliente);
                     cn.Open();
                     int f = cmd.ExecuteNonQuery();
@@ -170,8 +172,8 @@ namespace CapaDatos
                         if (dr.Read())
                         {
                             or_Movi = new MoviCliente(int.Parse(dr[0].ToString()), dr[1].ToString(), dr[2].ToString(),
-                                dr[3].ToString(), dr[4].ToString(), dr[5].ToString(), dr[6].ToString(),
-                                dr[7].ToString());
+                                dr[3].ToString(), dr[4].ToString(), int.Parse(dr[5].ToString()), dr[6].ToString(),
+                                int.Parse(dr[7].ToString()));
 
 
                         }

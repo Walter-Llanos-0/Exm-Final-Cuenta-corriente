@@ -15,13 +15,13 @@ namespace Entidades
         public string Concepto { get; set; }
         public string Tipomovimiento { get; set; }
         public string Tipomoneda { get; set; }
-        public string Importe { get; set; }
+        public int Importe { get; set; }
         public string Nota { get; set; }
-        public string IdCliente { get; set; }
+        public int IdCliente { get; set; }
 
 
 
-        public MoviCliente(int IdMoviCliente, string Fecha, string Concepto, string Tipomovimiento, string Tipomoneda, string Importe, string Nota, string IdCliente)
+        public MoviCliente(int IdMoviCliente, string Fecha, string Concepto, string Tipomovimiento, string Tipomoneda, int Importe, string Nota, int IdCliente)
         {
             this.IdMoviCliente = IdMoviCliente;
             this.Fecha = Fecha;
@@ -34,7 +34,7 @@ namespace Entidades
 
         }
 
-        public MoviCliente( string Fecha, string Concepto, string Tipomovimiento, string Tipomoneda, string Importe, string Nota, string IdCliente)
+        public MoviCliente( string Fecha, string Concepto, string Tipomovimiento, string Tipomoneda, int Importe, string Nota, int IdCliente)
         {
             
             this.Fecha = Fecha;
