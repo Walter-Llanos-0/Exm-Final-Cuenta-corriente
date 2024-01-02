@@ -22,5 +22,17 @@ namespace CapaPresentacion
             FrmRegistro_Usuario registro_usuario = new FrmRegistro_Usuario();
             registro_usuario.ShowDialog();
         }
+
+        private void registroProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmProveedor registro_proovedor = new FrmProveedor();
+            registro_proovedor.ShowDialog();
+        }
+
+        private void movimientoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMoviProovedor registromovi = new FrmMoviProovedor();
+            registromovi.ShowDialog();
+        }
     }
 }
