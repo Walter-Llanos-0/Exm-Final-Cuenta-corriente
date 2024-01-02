@@ -9,6 +9,7 @@ namespace Entidades
     public class R_Cliente
     {
 
+         
 
         public int IdCliente { get; set; }
         public string Tipocliente { get; set; }
