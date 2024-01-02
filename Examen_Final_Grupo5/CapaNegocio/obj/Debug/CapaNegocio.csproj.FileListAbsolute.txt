@@ -9,3 +9,14 @@ D:\Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompi
 D:\Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 D:\Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\Entidades.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\bin\Debug\Entidades.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.pdb

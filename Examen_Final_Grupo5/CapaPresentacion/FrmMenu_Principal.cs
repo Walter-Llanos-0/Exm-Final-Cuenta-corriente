@@ -34,5 +34,10 @@ namespace CapaPresentacion
             FrmMoviProovedor registromovi = new FrmMoviProovedor();
             registromovi.ShowDialog();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

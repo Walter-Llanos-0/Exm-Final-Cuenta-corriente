@@ -147,5 +147,10 @@ namespace CapaPresentacion
 
             excel.Visible = true;
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }//fin de clase
 }//fin de capa presentacion

@@ -4,3 +4,9 @@ D:\Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.AssemblyRefer
 D:\Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.dll
 D:\Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\bin\Debug\Entidades.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\bin\Debug\Entidades.pdb
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.dll
+D:\Git-Grupo5\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.pdb
