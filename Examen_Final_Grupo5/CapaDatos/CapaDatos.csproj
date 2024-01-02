@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ConexionBD.cs" />
     <Compile Include="MoviProovedorDL.cs" />
+    <Compile Include="R_ClienteDL.cs" />
     <Compile Include="R_ProovedorDL.cs" />
     <Compile Include="R_UsuarioDL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
