@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MoviProovedorBL.cs" />
+    <Compile Include="R_ClienteBL.cs" />
     <Compile Include="R_ProovedorBL.cs" />
     <Compile Include="R_UsuarioBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
