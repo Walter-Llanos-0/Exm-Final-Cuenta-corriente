@@ -45,5 +45,11 @@ namespace CapaPresentacion
             FrmCliente registro_cliente = new FrmCliente();
             registro_cliente.ShowDialog();
         }
+
+        private void movimientoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMoviCliente registro_movicliente = new FrmMoviCliente();
+            registro_movicliente.ShowDialog();
+        }
     }
 }

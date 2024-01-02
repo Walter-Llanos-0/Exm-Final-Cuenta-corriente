@@ -91,6 +91,7 @@
             this.movimientoClienteToolStripMenuItem.Name = "movimientoClienteToolStripMenuItem";
             this.movimientoClienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.movimientoClienteToolStripMenuItem.Text = "Movimiento Cliente";
+            this.movimientoClienteToolStripMenuItem.Click += new System.EventHandler(this.movimientoClienteToolStripMenuItem_Click);
             // 
             // proveedorToolStripMenuItem
             // 
@@ -129,7 +130,7 @@
             this.ClientSize = new System.Drawing.Size(1520, 763);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMenu_Principal";
             this.Text = "FrmMenu_Principal";
             this.menuStrip1.ResumeLayout(false);
