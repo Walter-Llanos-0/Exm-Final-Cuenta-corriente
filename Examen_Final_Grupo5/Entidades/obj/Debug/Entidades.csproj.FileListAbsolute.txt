@@ -10,3 +10,9 @@ C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\Entidades\obj
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.dll
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\bin\Debug\Entidades.dll
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\bin\Debug\Entidades.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.dll
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\Entidades\obj\Debug\Entidades.pdb
