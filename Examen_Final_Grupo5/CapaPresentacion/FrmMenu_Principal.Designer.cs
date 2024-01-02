@@ -37,6 +37,7 @@
             this.proveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimientoProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuarioToolStripMenuItem,
             this.clienteToolStripMenuItem,
-            this.proveedorToolStripMenuItem});
+            this.proveedorToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1140, 24);
@@ -63,7 +65,7 @@
             // registroUsuarioToolStripMenuItem
             // 
             this.registroUsuarioToolStripMenuItem.Name = "registroUsuarioToolStripMenuItem";
-            this.registroUsuarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registroUsuarioToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.registroUsuarioToolStripMenuItem.Text = "Registro Usuario";
             this.registroUsuarioToolStripMenuItem.Click += new System.EventHandler(this.registroUsuarioToolStripMenuItem_Click);
             // 
@@ -79,13 +81,13 @@
             // registroClienteToolStripMenuItem
             // 
             this.registroClienteToolStripMenuItem.Name = "registroClienteToolStripMenuItem";
-            this.registroClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registroClienteToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.registroClienteToolStripMenuItem.Text = "Registro Cliente";
             // 
             // movimientoClienteToolStripMenuItem
             // 
             this.movimientoClienteToolStripMenuItem.Name = "movimientoClienteToolStripMenuItem";
-            this.movimientoClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.movimientoClienteToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.movimientoClienteToolStripMenuItem.Text = "Movimiento Cliente";
             // 
             // proveedorToolStripMenuItem
@@ -102,12 +104,21 @@
             this.registroProveedorToolStripMenuItem.Name = "registroProveedorToolStripMenuItem";
             this.registroProveedorToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.registroProveedorToolStripMenuItem.Text = "Registro Proveedor";
+            this.registroProveedorToolStripMenuItem.Click += new System.EventHandler(this.registroProveedorToolStripMenuItem_Click);
             // 
             // movimientoProveedorToolStripMenuItem
             // 
             this.movimientoProveedorToolStripMenuItem.Name = "movimientoProveedorToolStripMenuItem";
             this.movimientoProveedorToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.movimientoProveedorToolStripMenuItem.Text = "Movimiento Proveedor";
+            this.movimientoProveedorToolStripMenuItem.Click += new System.EventHandler(this.movimientoProveedorToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // FrmMenu_Principal
             // 
@@ -136,5 +147,6 @@
         private System.Windows.Forms.ToolStripMenuItem proveedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registroProveedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem movimientoProveedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
