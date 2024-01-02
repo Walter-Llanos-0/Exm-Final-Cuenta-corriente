@@ -86,7 +86,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(432, 9);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(470, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 31);
             this.label1.TabIndex = 0;
@@ -533,14 +534,15 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(81, 371);
+            this.dataGridView1.Location = new System.Drawing.Point(59, 362);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1024, 200);
             this.dataGridView1.TabIndex = 2;
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(100, 586);
+            this.btnNuevo.ForeColor = System.Drawing.Color.Blue;
+            this.btnNuevo.Location = new System.Drawing.Point(84, 568);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 23);
             this.btnNuevo.TabIndex = 3;
@@ -550,7 +552,8 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(198, 586);
+            this.btnAgregar.ForeColor = System.Drawing.Color.Blue;
+            this.btnAgregar.Location = new System.Drawing.Point(231, 568);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 4;
@@ -560,7 +563,8 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(293, 586);
+            this.btnBuscar.ForeColor = System.Drawing.Color.Blue;
+            this.btnBuscar.Location = new System.Drawing.Point(367, 568);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 5;
@@ -570,7 +574,8 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(389, 586);
+            this.btnActualizar.ForeColor = System.Drawing.Color.Blue;
+            this.btnActualizar.Location = new System.Drawing.Point(520, 568);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 6;
@@ -580,7 +585,8 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(488, 586);
+            this.btnEliminar.ForeColor = System.Drawing.Color.Blue;
+            this.btnEliminar.Location = new System.Drawing.Point(664, 568);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 7;
@@ -590,7 +596,8 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(587, 588);
+            this.btnLimpiar.ForeColor = System.Drawing.Color.Blue;
+            this.btnLimpiar.Location = new System.Drawing.Point(804, 568);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 8;
@@ -600,7 +607,8 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(703, 588);
+            this.btnSalir.ForeColor = System.Drawing.Color.Blue;
+            this.btnSalir.Location = new System.Drawing.Point(962, 568);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 9;

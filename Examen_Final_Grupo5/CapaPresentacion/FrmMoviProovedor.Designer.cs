@@ -54,6 +54,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnExportar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.tabla)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(350, 18);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(361, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(304, 31);
             this.label1.TabIndex = 0;
@@ -224,14 +226,15 @@
             // tabla
             // 
             this.tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tabla.Location = new System.Drawing.Point(92, 314);
+            this.tabla.Location = new System.Drawing.Point(103, 339);
             this.tabla.Name = "tabla";
             this.tabla.Size = new System.Drawing.Size(763, 210);
             this.tabla.TabIndex = 17;
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(112, 541);
+            this.btnNuevo.ForeColor = System.Drawing.Color.Blue;
+            this.btnNuevo.Location = new System.Drawing.Point(92, 559);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 23);
             this.btnNuevo.TabIndex = 18;
@@ -241,7 +244,8 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(207, 541);
+            this.btnAgregar.ForeColor = System.Drawing.Color.Blue;
+            this.btnAgregar.Location = new System.Drawing.Point(189, 559);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 19;
@@ -251,7 +255,8 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(308, 541);
+            this.btnBuscar.ForeColor = System.Drawing.Color.Blue;
+            this.btnBuscar.Location = new System.Drawing.Point(289, 559);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 20;
@@ -261,7 +266,8 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(411, 541);
+            this.btnActualizar.ForeColor = System.Drawing.Color.Blue;
+            this.btnActualizar.Location = new System.Drawing.Point(392, 559);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 21;
@@ -271,7 +277,8 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(513, 541);
+            this.btnEliminar.ForeColor = System.Drawing.Color.Blue;
+            this.btnEliminar.Location = new System.Drawing.Point(488, 555);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(79, 27);
             this.btnEliminar.TabIndex = 22;
@@ -281,7 +288,8 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(629, 545);
+            this.btnLimpiar.ForeColor = System.Drawing.Color.Blue;
+            this.btnLimpiar.Location = new System.Drawing.Point(590, 559);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 23;
@@ -292,8 +300,8 @@
             // btnExportar
             // 
             this.btnExportar.BackColor = System.Drawing.Color.White;
-            this.btnExportar.ForeColor = System.Drawing.Color.Lime;
-            this.btnExportar.Location = new System.Drawing.Point(890, 545);
+            this.btnExportar.ForeColor = System.Drawing.Color.Blue;
+            this.btnExportar.Location = new System.Drawing.Point(773, 555);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(93, 23);
             this.btnExportar.TabIndex = 24;
@@ -303,7 +311,8 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(765, 545);
+            this.btnSalir.ForeColor = System.Drawing.Color.Blue;
+            this.btnSalir.Location = new System.Drawing.Point(692, 557);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 25;
@@ -311,11 +320,18 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(48, 66);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(885, 267);
+            this.panel1.TabIndex = 26;
+            // 
             // FrmMoviProovedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1124, 594);
+            this.ClientSize = new System.Drawing.Size(993, 594);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnLimpiar);
@@ -342,6 +358,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Name = "FrmMoviProovedor";
             this.Text = "FrmMoviProovedor";
             this.Load += new System.EventHandler(this.FrmMoviProovedor_Load);
@@ -379,5 +396,6 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnExportar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Panel panel1;
     }
 }
