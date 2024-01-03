@@ -43,3 +43,49 @@ C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentac
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\WALTER\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\Entidades.dll
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\Entidades.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.ResolveComReference.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCliente.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmLogin.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu_Principal.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMoviProovedor.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProveedor.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRegistro_Usuario.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\Entidades.dll
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\Entidades.pdb
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.ResolveComReference.cache
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCliente.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmLogin.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu_Principal.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMoviProovedor.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProveedor.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRegistro_Usuario.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\adria\Source\Repos\GRUPO5-DESARROLLO\Examen_Final_Grupo5\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

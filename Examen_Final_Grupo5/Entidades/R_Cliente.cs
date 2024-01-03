@@ -10,7 +10,8 @@ namespace Entidades
     {
          
 
-         
+          
+
 
         public int IdCliente { get; set; }
         public string Tipocliente { get; set; }

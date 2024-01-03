@@ -39,5 +39,17 @@ namespace CapaPresentacion
         {
             this.Close();
         }
+
+        private void registroClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCliente registro_cliente = new FrmCliente();
+            registro_cliente.ShowDialog();
+        }
+
+        private void movimientoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMoviCliente registro_movicliente = new FrmMoviCliente();
+            registro_movicliente.ShowDialog();
+        }
     }
 }
