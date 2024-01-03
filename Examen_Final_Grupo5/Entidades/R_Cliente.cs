@@ -8,6 +8,7 @@ namespace Entidades
 {
     public class R_Cliente
     {
+         
 
          
 
