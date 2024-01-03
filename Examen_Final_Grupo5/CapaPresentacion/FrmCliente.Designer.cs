@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.btnnuevo = new System.Windows.Forms.Button();
             this.btnagregar = new System.Windows.Forms.Button();
             this.btnlimpiar = new System.Windows.Forms.Button();
@@ -45,12 +44,9 @@
             this.cbotipocliente = new System.Windows.Forms.ComboBox();
             this.txtcorreo = new System.Windows.Forms.TextBox();
             this.txtestado = new System.Windows.Forms.TextBox();
-            this.txtdistrito = new System.Windows.Forms.TextBox();
             this.txtcelular = new System.Windows.Forms.TextBox();
             this.txttelefono = new System.Windows.Forms.TextBox();
             this.txtdomicilio = new System.Windows.Forms.TextBox();
-            this.txtprovincia = new System.Windows.Forms.TextBox();
-            this.txtdepartamento = new System.Windows.Forms.TextBox();
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtrazonsocial = new System.Windows.Forms.TextBox();
             this.txtruc = new System.Windows.Forms.TextBox();
@@ -76,12 +72,16 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
             this.dgvtabla = new System.Windows.Forms.DataGridView();
+            this.cboDepartamento = new System.Windows.Forms.ComboBox();
+            this.cboProvincia = new System.Windows.Forms.ComboBox();
+            this.cboDistrito = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtabla)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,18 +112,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Datos de Identificacion";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.dgvtabla);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1380, 706);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Cuenta Corriente";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // btnnuevo
             // 
@@ -210,17 +198,17 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.cboDistrito);
             this.panel1.Controls.Add(this.txtmoroso);
+            this.panel1.Controls.Add(this.cboProvincia);
             this.panel1.Controls.Add(this.cbotipodocumento);
+            this.panel1.Controls.Add(this.cboDepartamento);
             this.panel1.Controls.Add(this.cbotipocliente);
             this.panel1.Controls.Add(this.txtcorreo);
             this.panel1.Controls.Add(this.txtestado);
-            this.panel1.Controls.Add(this.txtdistrito);
             this.panel1.Controls.Add(this.txtcelular);
             this.panel1.Controls.Add(this.txttelefono);
             this.panel1.Controls.Add(this.txtdomicilio);
-            this.panel1.Controls.Add(this.txtprovincia);
-            this.panel1.Controls.Add(this.txtdepartamento);
             this.panel1.Controls.Add(this.txtnombre);
             this.panel1.Controls.Add(this.txtrazonsocial);
             this.panel1.Controls.Add(this.txtruc);
@@ -301,14 +289,6 @@
             this.txtestado.Size = new System.Drawing.Size(201, 22);
             this.txtestado.TabIndex = 91;
             // 
-            // txtdistrito
-            // 
-            this.txtdistrito.Location = new System.Drawing.Point(639, 146);
-            this.txtdistrito.Margin = new System.Windows.Forms.Padding(4);
-            this.txtdistrito.Name = "txtdistrito";
-            this.txtdistrito.Size = new System.Drawing.Size(202, 22);
-            this.txtdistrito.TabIndex = 86;
-            // 
             // txtcelular
             // 
             this.txtcelular.Location = new System.Drawing.Point(639, 227);
@@ -332,22 +312,6 @@
             this.txtdomicilio.Name = "txtdomicilio";
             this.txtdomicilio.Size = new System.Drawing.Size(202, 22);
             this.txtdomicilio.TabIndex = 83;
-            // 
-            // txtprovincia
-            // 
-            this.txtprovincia.Location = new System.Drawing.Point(637, 102);
-            this.txtprovincia.Margin = new System.Windows.Forms.Padding(4);
-            this.txtprovincia.Name = "txtprovincia";
-            this.txtprovincia.Size = new System.Drawing.Size(201, 22);
-            this.txtprovincia.TabIndex = 85;
-            // 
-            // txtdepartamento
-            // 
-            this.txtdepartamento.Location = new System.Drawing.Point(638, 58);
-            this.txtdepartamento.Margin = new System.Windows.Forms.Padding(4);
-            this.txtdepartamento.Name = "txtdepartamento";
-            this.txtdepartamento.Size = new System.Drawing.Size(201, 22);
-            this.txtdepartamento.TabIndex = 84;
             // 
             // txtnombre
             // 
@@ -444,6 +408,7 @@
             this.label15.Size = new System.Drawing.Size(87, 24);
             this.label15.TabIndex = 70;
             this.label15.Text = "Provincia";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
             // 
@@ -621,6 +586,18 @@
             this.label6.TabIndex = 56;
             this.label6.Text = "Apellido Materno";
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label10);
+            this.tabPage2.Controls.Add(this.dgvtabla);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1380, 706);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Cuenta Corriente";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -641,6 +618,80 @@
             this.dgvtabla.Size = new System.Drawing.Size(1351, 570);
             this.dgvtabla.TabIndex = 2;
             // 
+            // cboDepartamento
+            // 
+            this.cboDepartamento.FormattingEnabled = true;
+            this.cboDepartamento.Items.AddRange(new object[] {
+            "Seleccione",
+            "Amazonas",
+            "Ancash",
+            "Apurimac",
+            "Arequipa",
+            "Ayacucho",
+            "Cajamarca",
+            "Callao",
+            "Cuzco",
+            "Huancavelica",
+            "Huanuco",
+            "Ica",
+            "Junin",
+            "La libertad",
+            "Lambayeque ",
+            "Lima",
+            "Loreto",
+            "Madre de Dios",
+            "Moquegua",
+            "Pasco",
+            "Piura",
+            "Puno"});
+            this.cboDepartamento.Location = new System.Drawing.Point(640, 61);
+            this.cboDepartamento.Name = "cboDepartamento";
+            this.cboDepartamento.Size = new System.Drawing.Size(201, 24);
+            this.cboDepartamento.TabIndex = 96;
+            // 
+            // cboProvincia
+            // 
+            this.cboProvincia.FormattingEnabled = true;
+            this.cboProvincia.Items.AddRange(new object[] {
+            "Seleccione",
+            "Chachapoyas",
+            "Huaraz\t",
+            "Abancay",
+            "Arequipa",
+            "Huamanga",
+            "Cajamarca",
+            "Callao",
+            "Acomayo",
+            "Huanuco ",
+            "Huancayo",
+            "Trujillo",
+            "Chiclayo ",
+            "Lima ",
+            "Iquitos"});
+            this.cboProvincia.Location = new System.Drawing.Point(637, 99);
+            this.cboProvincia.Name = "cboProvincia";
+            this.cboProvincia.Size = new System.Drawing.Size(201, 24);
+            this.cboProvincia.TabIndex = 97;
+            // 
+            // cboDistrito
+            // 
+            this.cboDistrito.FormattingEnabled = true;
+            this.cboDistrito.Items.AddRange(new object[] {
+            "Seleccione",
+            "Lima",
+            "San Martin",
+            "El agustino",
+            "Comas",
+            "Los olivos",
+            "Ancon",
+            "Cercado de Lima",
+            "Miraflores ",
+            "Pueblo Libre"});
+            this.cboDistrito.Location = new System.Drawing.Point(641, 146);
+            this.cboDistrito.Name = "cboDistrito";
+            this.cboDistrito.Size = new System.Drawing.Size(201, 24);
+            this.cboDistrito.TabIndex = 98;
+            // 
             // FrmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -652,10 +703,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtabla)).EndInit();
             this.ResumeLayout(false);
 
@@ -679,12 +730,9 @@
         private System.Windows.Forms.ComboBox cbotipocliente;
         private System.Windows.Forms.TextBox txtcorreo;
         private System.Windows.Forms.TextBox txtestado;
-        private System.Windows.Forms.TextBox txtdistrito;
         private System.Windows.Forms.TextBox txtcelular;
         private System.Windows.Forms.TextBox txttelefono;
         private System.Windows.Forms.TextBox txtdomicilio;
-        private System.Windows.Forms.TextBox txtprovincia;
-        private System.Windows.Forms.TextBox txtdepartamento;
         private System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.TextBox txtrazonsocial;
         private System.Windows.Forms.TextBox txtruc;
@@ -712,5 +760,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridView dgvtabla;
+        private System.Windows.Forms.ComboBox cboDistrito;
+        private System.Windows.Forms.ComboBox cboProvincia;
+        private System.Windows.Forms.ComboBox cboDepartamento;
     }
 }

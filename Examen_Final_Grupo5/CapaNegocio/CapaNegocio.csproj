@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MoviClienteBL.cs" />
     <Compile Include="MoviProovedorBL.cs" />
     <Compile Include="R_ClienteBL.cs" />
     <Compile Include="R_ProovedorBL.cs" />

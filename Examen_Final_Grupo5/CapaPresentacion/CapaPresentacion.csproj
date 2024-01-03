@@ -65,6 +65,12 @@
     <Compile Include="FrmMenu_Principal.Designer.cs">
       <DependentUpon>FrmMenu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMoviCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMoviCliente.Designer.cs">
+      <DependentUpon>FrmMoviCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMoviProovedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu_Principal.resx">
       <DependentUpon>FrmMenu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMoviCliente.resx">
+      <DependentUpon>FrmMoviCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMoviProovedor.resx">
       <DependentUpon>FrmMoviProovedor.cs</DependentUpon>

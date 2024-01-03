@@ -35,9 +35,9 @@ namespace CapaPresentacion
             txtruc.Clear();
             txtrazonsocial.Clear();
             txtdomicilio.Clear();
-            txtdepartamento.Clear();
-            txtprovincia.Clear();
-            txtdistrito.Clear();
+            cboDepartamento.SelectedIndex = 0;
+            cboProvincia.SelectedIndex = 0;
+            cboDistrito.SelectedIndex = 0;
             txttelefono.Clear();
             txtcelular.Clear();
             txtcorreo.Clear();
@@ -127,7 +127,8 @@ namespace CapaPresentacion
         {
 
             string men;
-            men = orClienteBL.agregarCliente(new R_Cliente(cbotipocliente.SelectedItem.ToString(), cbotipodocumento.SelectedItem.ToString(), txtdocumento.Text, txtpaterno.Text, txtmaterno.Text, txtnombre.Text, txtruc.Text, txtrazonsocial.Text, txtdomicilio.Text, txtdepartamento.Text, txtprovincia.Text, txtdistrito.Text, txttelefono.Text, txtcelular.Text, txtcorreo.Text, txtmoroso.Text, txtestado.Text));
+            men = orClienteBL.agregarCliente(new R_Cliente(cbotipocliente.SelectedItem.ToString(), cbotipodocumento.SelectedItem.ToString(), txtdocumento.Text, txtpaterno.Text, txtmaterno.Text, txtnombre.Text, txtruc.Text, txtrazonsocial.Text, txtdomicilio.Text, cboDepartamento.SelectedItem.ToString(),
+                cboProvincia.SelectedItem.ToString(), cboDistrito.SelectedItem.ToString(), txttelefono.Text, txtcelular.Text, txtcorreo.Text, txtmoroso.Text, txtestado.Text));
 
             MessageBox.Show(men);
             dgvtabla.DataSource = orClienteBL.listarCliente();
@@ -160,9 +161,9 @@ namespace CapaPresentacion
                 txtruc.Text = or_Cliente.Ruc;
                 txtrazonsocial.Text = or_Cliente.RazonSocial;
                 txtdomicilio.Text = or_Cliente.Domicilio;
-                txtdepartamento.Text = or_Cliente.Departamento;
-                txtprovincia.Text = or_Cliente.Provincia;
-                txtdistrito.Text = or_Cliente.Distrito;
+                cboDepartamento.SelectedItem = or_Cliente.Departamento;
+                cboProvincia.SelectedItem = or_Cliente.Provincia;
+                cboDistrito.SelectedItem = or_Cliente.Distrito;
                 txttelefono.Text = or_Cliente.Telefono1;
                 txtcelular.Text = or_Cliente.Celular;
                 txtcorreo.Text = or_Cliente.Correo;
@@ -176,7 +177,8 @@ namespace CapaPresentacion
         {
 
             string men;
-            men = orClienteBL.actualizarCliente(new R_Cliente(Int16.Parse(txtid.Text), cbotipocliente.SelectedItem.ToString(), cbotipodocumento.SelectedItem.ToString(), txtdocumento.Text, txtpaterno.Text, txtmaterno.Text, txtnombre.Text, txtruc.Text, txtrazonsocial.Text, txtdomicilio.Text, txtdepartamento.Text, txtprovincia.Text, txtdistrito.Text, txttelefono.Text, txtcelular.Text, txtcorreo.Text, txtmoroso.Text, txtestado.Text));
+            men = orClienteBL.actualizarCliente(new R_Cliente(Int16.Parse(txtid.Text), cbotipocliente.SelectedItem.ToString(), cbotipodocumento.SelectedItem.ToString(), txtdocumento.Text, txtpaterno.Text, txtmaterno.Text, txtnombre.Text, txtruc.Text, txtrazonsocial.Text, txtdomicilio.Text, cboDepartamento.SelectedItem.ToString(),
+                cboProvincia.SelectedItem.ToString(), cboDistrito.SelectedItem.ToString(), txttelefono.Text, txtcelular.Text, txtcorreo.Text, txtmoroso.Text, txtestado.Text));
 
             MessageBox.Show(men);
 
@@ -197,6 +199,11 @@ namespace CapaPresentacion
         private void btnlimpiar_Click_1(object sender, EventArgs e)
         {
             LimpiarCliente();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
