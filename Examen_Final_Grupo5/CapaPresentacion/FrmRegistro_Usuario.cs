@@ -62,6 +62,8 @@ namespace CapaPresentacion
         {
             InitializeComponent();
             tblRegistro_Usuario.DataSource = or_usuarioBL.listarUsuario();
+            LimpiarFoto();
+            
         }
 
         void LimpiarUsuario()
@@ -74,7 +76,7 @@ namespace CapaPresentacion
             txtNombre.Clear();
             cboPerfil.SelectedIndex = (0);
             cboEstado.SelectedIndex = (0);
-            
+            LimpiarFoto();
 
         }
 
@@ -82,6 +84,7 @@ namespace CapaPresentacion
         {
             LimpiarUsuario();
             txtUsuario1.Focus();
+            LimpiarFoto();
         }
 
 
@@ -114,10 +117,25 @@ namespace CapaPresentacion
             }
         }
 
+        void LimpiarFoto()
+        {
+            pbFoto.Visible = false;
+
+        }
+
+        void VerImagen()
+        {
+            pbFoto.Visible = true;
+        }
+
+
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Int16 idusuario = Int16.Parse(Microsoft.VisualBasic.Interaction.InputBox("Codigo a buscar"));
-
+            tblRegistro_Usuario.Columns[2].Visible = false;
+            tblRegistro_Usuario.Columns[8].Visible = false;
+            VerImagen();
             try
             {
                 using (SqlCommand cmd = cn.CreateCommand())
@@ -179,6 +197,7 @@ namespace CapaPresentacion
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             LimpiarUsuario();
+            LimpiarFoto();
 
         }
 
@@ -202,6 +221,13 @@ namespace CapaPresentacion
                 ruta = "";
                 pbFoto.Image = null;
             }
+        }
+
+        private void FrmRegistro_Usuario_Load(object sender, EventArgs e)
+        {
+            tblRegistro_Usuario.DataSource = or_usuarioBL.listarUsuario();
+            tblRegistro_Usuario.Columns[2].Visible = false;
+            tblRegistro_Usuario.Columns[8].Visible = false;
         }
     }
 }

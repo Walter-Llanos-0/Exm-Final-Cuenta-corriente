@@ -347,6 +347,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmRegistro_Usuario";
             this.Text = "FrmRegistro_Usuario";
+            this.Load += new System.EventHandler(this.FrmRegistro_Usuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblRegistro_Usuario)).EndInit();
             this.ResumeLayout(false);

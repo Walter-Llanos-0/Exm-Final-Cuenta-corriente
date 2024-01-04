@@ -9,7 +9,7 @@ namespace CapaDatos
 {
     public class ConexionBD
     {
-        SqlConnection cn = new SqlConnection("Data Source=LAPTOP-B9COPN0L;Database=Grupo_5;User ID=sa;Password=1234");
+        SqlConnection cn = new SqlConnection("Data Source=DESKTOP-2T10M4M;Initial Catalog=Grupo_5;Persist Security Info=True;User ID=sa;Password=74994175");
 
         public SqlConnection conectar()
         {

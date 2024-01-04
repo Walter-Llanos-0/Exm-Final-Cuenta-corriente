@@ -25,3 +25,12 @@ C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaDatos\obj\Debug\C
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\bin\Debug\Entidades.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\bin\Debug\Entidades.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -31,3 +31,14 @@ C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaNegocio\obj\Debug
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\WALTER\Desktop\clon de github\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\Entidades.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\bin\Debug\Entidades.pdb
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\Clonacion 1\Examen_Final_Grupo5\CapaNegocio\obj\Debug\CapaNegocio.pdb
